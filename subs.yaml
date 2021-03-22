@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+news:
+  - news
+  - worldnews
+  - politics
+
+programming:
+  - nodejs
+  - javascript
+  - webDev

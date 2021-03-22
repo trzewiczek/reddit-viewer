@@ -1,0 +1,23 @@
+{
+  "name": "reddit-viewer",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:trzewiczek/reddit-viewer.git",
+  "author": "trzewiczek <trzewiczek@protonmail.ch>",
+  "license": "MIT",
+  "scripts": {
+    "all": "yarn lint && yarn build",
+    "build": "tsc",
+    "lint": "ts-standard --fix",
+    "rv": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "ts-standard": "^10.0.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "node-yaml": "^4.0.1"
+  }
+}
